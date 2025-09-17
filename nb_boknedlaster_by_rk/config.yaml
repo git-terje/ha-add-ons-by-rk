@@ -1,0 +1,23 @@
+name: NB Boknedlaster by RK
+version: 1.0.1
+slug: nb_boknedlaster_by_rk
+description: Download books from NB.no as PDF with OCR and TOC
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+options:
+  book_id: ""
+  chapters: []
+  output: "/config/www/nb/output.pdf"
+  digitalarkivet_enabled: false
+  digitalarkivet_endpoint: ""
+schema:
+  book_id: str
+  chapters:
+    - str
+  output: str
+  digitalarkivet_enabled: bool
+  digitalarkivet_endpoint: str

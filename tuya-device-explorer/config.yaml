@@ -1,0 +1,15 @@
+name: Tuya Device Explorer
+version: 1.0.1
+slug: tuya_device_explorer
+description: Explore Tuya devices locally
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+webui: "http://[HOST]:8097"
+options:
+  api_key: ""
+schema:
+  api_key: str

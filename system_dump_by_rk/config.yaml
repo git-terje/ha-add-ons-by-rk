@@ -1,0 +1,14 @@
+name: System Dump by RK
+version: 1.0.1
+slug: system_dump_by_rk
+description: Dumps system info for debugging
+arch:
+  - amd64
+  - aarch64
+startup: once
+boot: manual
+ingress: false
+options:
+  output_path: "/config/system_dump.txt"
+schema:
+  output_path: str

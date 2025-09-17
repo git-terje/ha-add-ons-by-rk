@@ -1,0 +1,21 @@
+name: POS Backend by RK
+version: 1.0.1
+slug: pos_backend_by_rk
+description: POS backend with Google Sheets integration, labels, stock and sales
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+init: false
+ports:
+  "8091/tcp": 8091
+ingress: false
+options:
+  google_sheet_id: ""
+  service_account_json: "/config/pos_service_account.json"
+  ha_event: "pos_sale"
+schema:
+  google_sheet_id: str
+  service_account_json: str
+  ha_event: str

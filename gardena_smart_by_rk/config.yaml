@@ -1,0 +1,16 @@
+name: Gardena Smart by RK
+version: 1.0.1
+slug: gardena_smart_by_rk
+description: Gardena Smart System integration
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+options:
+  app_key: ""
+  app_secret: ""
+schema:
+  app_key: str
+  app_secret: str

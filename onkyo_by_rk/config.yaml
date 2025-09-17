@@ -1,0 +1,16 @@
+name: Onkyo by RK
+version: 1.0.1
+slug: onkyo_by_rk
+description: Onkyo/Pioneer eISCP integration
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+options:
+  host: ""
+  port: 60128
+schema:
+  host: str
+  port: port

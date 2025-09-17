@@ -1,0 +1,14 @@
+name: iHost Hardware Control
+version: 1.0.1
+slug: ihost_hardware_control
+description: Control iHost hardware features
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+options:
+  device_path: ""
+schema:
+  device_path: str
