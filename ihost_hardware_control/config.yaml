@@ -1,5 +1,5 @@
 name: iHost Hardware Control
-version: 1.0.1
+version: 0.1.7
 slug: ihost_hardware_control
 description: Control iHost hardware features
 arch:

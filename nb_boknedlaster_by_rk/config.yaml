@@ -1,5 +1,5 @@
 name: NB Boknedlaster by RK
-version: 1.0.1
+version: 0.1.7
 slug: nb_boknedlaster_by_rk
 description: Download books from NB.no as PDF with OCR and TOC
 arch:

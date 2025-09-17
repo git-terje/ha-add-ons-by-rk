@@ -1,5 +1,5 @@
 name: System Dump by RK
-version: 1.0.1
+version: 0.1.7
 slug: system_dump_by_rk
 description: Dumps system info for debugging
 arch:

@@ -1,5 +1,3 @@
-# Release Notes v1.0.1
-
-- Full repo validation.
-- Added Dockerfiles for system_dump_by_rk and pos_backend_by_rk.
-- Corrected schemas and startup values.
+# Release Notes v0.1.7
+- All add-ons packaged with Dockerfile and runnable entrypoint.
+- POS backend includes complete FastAPI app and static UI.

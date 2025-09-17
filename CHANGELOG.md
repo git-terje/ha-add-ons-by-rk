@@ -1,5 +1,6 @@
 # Changelog – ha-addons-by-rk
 
-## v1.0.1 (2025-09-17)
-- All add-ons validated and corrected for Supervisor.
-- ARM64 base image fixes.
+## v0.1.7 (2025-09-17)
+- Rebuilt with full code and validated configs.
+- POS: redirect, CORS, static UI, Sheets I/O.
+- Dockerfiles use aarch64 base.

@@ -1,3 +1,3 @@
 # Add-on by RK
 
-Validated Home Assistant add-on configuration.
+English-only docs. Validated configuration.

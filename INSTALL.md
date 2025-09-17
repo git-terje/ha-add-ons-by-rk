@@ -1,7 +1,8 @@
-# Install ha-addons-by-rk v1.0.1
+# Install ha-addons-by-rk v0.1.7
 
-Add repo URL in Home Assistant Add-on Store:
+Add this repository URL in Add-on Store:
 
 ```
 https://github.com/git-terje/ha-addons-by-rk
 ```
+Or copy folders to `/addons/local/ha-addons-by-rk/` and reload.
