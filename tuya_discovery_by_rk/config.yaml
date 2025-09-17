@@ -1,0 +1,15 @@
+name: Tuya Discovery by RK
+version: 0.1.9
+slug: tuya_discovery_by_rk
+description: Discover Tuya devices on the network
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+ingress: false
+webui: "http://[HOST]:[PORT:8097]"
+options:
+  git_repo: ""
+schema:
+  git_repo: str

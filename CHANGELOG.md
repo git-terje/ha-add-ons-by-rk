@@ -1,6 +1,3 @@
-# Changelog – ha-addons-by-rk
-
-## v0.1.7 (2025-09-17)
-- Rebuilt with full code and validated configs.
-- POS: redirect, CORS, static UI, Sheets I/O.
-- Dockerfiles use aarch64 base.
+## v0.1.9 (2025-09-17)
+- Complete, runnable code for all add-ons.
+- aarch64 base, ISO timestamps, git_repo support.

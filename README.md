@@ -1,3 +1,3 @@
-# ha-addons-by-rk v0.1.7
+# ha-addons-by-rk v0.1.9
 
-Unified collection of validated Home Assistant add-ons by RK.
+Add-ons: POS Backend, NB Boknedlaster, System Dump, Tuya Local, Tuya Discovery, Gardena Smart, Onkyo.

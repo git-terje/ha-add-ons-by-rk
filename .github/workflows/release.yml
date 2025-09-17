@@ -1,0 +1,14 @@
+name: Publish Add-ons
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: home-assistant/builder@2025.01.0
+        with:
+          args: |
+            --all             -t ${{ github.ref_name }}

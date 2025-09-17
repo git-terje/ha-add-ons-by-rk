@@ -1,7 +1,7 @@
 name: Gardena Smart by RK
-version: 0.1.7
+version: 0.1.9
 slug: gardena_smart_by_rk
-description: Gardena Smart System integration
+description: Gardena Smart System helpers
 arch:
   - amd64
   - aarch64
@@ -11,6 +11,8 @@ ingress: false
 options:
   app_key: ""
   app_secret: ""
+  git_repo: ""
 schema:
   app_key: str
   app_secret: str
+  git_repo: str

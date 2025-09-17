@@ -1,7 +1,7 @@
 name: Onkyo by RK
-version: 0.1.7
+version: 0.1.9
 slug: onkyo_by_rk
-description: Onkyo/Pioneer eISCP integration
+description: Onkyo/Pioneer eISCP utilities
 arch:
   - amd64
   - aarch64
@@ -11,6 +11,8 @@ ingress: false
 options:
   host: ""
   port: 60128
+  git_repo: ""
 schema:
   host: str
   port: port
+  git_repo: str

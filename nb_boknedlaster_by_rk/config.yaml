@@ -1,11 +1,11 @@
 name: NB Boknedlaster by RK
-version: 0.1.7
+version: 0.1.9
 slug: nb_boknedlaster_by_rk
 description: Download books from NB.no as PDF with OCR and TOC
 arch:
   - amd64
   - aarch64
-startup: services
+startup: application
 boot: auto
 ingress: false
 options:
@@ -14,6 +14,7 @@ options:
   output: "/config/www/nb/output.pdf"
   digitalarkivet_enabled: false
   digitalarkivet_endpoint: ""
+  git_repo: ""
 schema:
   book_id: str
   chapters:
@@ -21,3 +22,4 @@ schema:
   output: str
   digitalarkivet_enabled: bool
   digitalarkivet_endpoint: str
+  git_repo: str
